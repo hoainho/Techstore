@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 10px;
+  font-family: sans-serif; }
+
+.nav-bg--per {
+  top: 15px;
+  left: 15px;
+  position: fixed;
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: 20;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); }
+  .nav-bg--per__icon1 {
+    width: 90%;
+    height: 90%;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    top: 10%;
+    left: 10%;
+    cursor: pointer;
+    z-index: 19;
+    transition: all 500ms cubic-bezier(0.68, 0, 0.265, 1);
+    position: absolute; }
+  .nav-bg--per__icon2 {
+    width: 90%;
+    height: 90%;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    top: 10%;
+    left: 10%;
+    cursor: pointer;
+    z-index: 19;
+    transition: all 500ms cubic-bezier(0.68, 0, 0.265, 1) 0.2s; }
+  .nav-bg--per__icon3 {
+    width: 90%;
+    height: 90%;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+    top: 10%;
+    left: 10%;
+    transition: all 500ms cubic-bezier(0.68, 0, 0.265, 1) 0.3s; }
+  .nav-bg--per__icon4 {
+    width: 90%;
+    height: 90%;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    line-height: 70px;
+    top: 10%;
+    left: 10%;
+    transition: all 500ms cubic-bezier(0.68, 0, 0.265, 1) 0.4s; }
+  .nav-bg--per__iconprimary {
+    top: 1.5rem;
+    left: 1.5rem;
+    width: 6.5rem;
+    height: 6.5rem;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 21;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    cursor: pointer;
+    position: fixed; }
+  .nav-bg--per__user {
+    transform: translateY(-20%); }
+    .nav-bg--per__user-primary {
+      transform: translateY(-70%); }
+  .nav-bg--per .icon-circle:hover {
+    color: #000 !important;
+    background-color: #fff !important;
+    box-shadow: 0 0 10px #fff, 0 0 40px #464ee2, 0 0 80px #c89c21; }
+
+.nav-bg {
+  position: relative;
+  width: 100%;
+  height: 100vh; }
+  .nav-bg--pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: inherit;
+    filter: blur(3px); }
+  .nav-bg--box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30rem;
+    height: 30rem;
+    transform-style: preserve-3d;
+    /* -----------opacity imgae------------ */
+    /* --------IMG I-------- */
+    /* --------IMG II-------- */
+    /* --------IMG III-------- */
+    /* -----------Khoi lap phuong------------- */ }
+    .nav-bg--box__pic {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transform: rotateX(-25deg) rotateY(25deg) translate3d(-7.5rem, -5rem, 15rem); }
+      .nav-bg--box__pic___tech {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(0);
+        overflow: hidden;
+        transition: all .5s; }
+    .nav-bg--box__picgroup {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 2px solid #000;
+      background: #fff; }
+    .nav-bg--box .nav-bg--box__picgroup:hover .opa-img1:nth-child(4) {
+      transform: translate(4rem, -4rem);
+      opacity: 1; }
+    .nav-bg--box .nav-bg--box__picgroup:hover .opa-img1:nth-child(3) {
+      transform: translate(2.5rem, -2.5rem);
+      opacity: 0.8; }
+    .nav-bg--box .nav-bg--box__picgroup:hover .opa-img1:nth-child(2) {
+      transform: translate(1rem, -1rem);
+      opacity: 0.7; }
+    .nav-bg--box .nav-bg--box__picgroup:hover .opa-img1:nth-child(1) {
+      opacity: 0.6; }
+    .nav-bg--box .nav-bg--box__picgroup:hover .opa-img2:nth-child(4) {
+      transform: translateX(6rem);
+      opacity: 1; }
+    .nav-bg--box .nav-bg--box__picgroup:hover .opa-img2:nth-child(3) {
+      transform: translateX(3rem);
+      opacity: 0.8; }
+    .nav-bg--box .nav-bg--box__picgroup:hover .opa-img2:nth-child(2) {
+      transform: translateX(1rem);
+      opacity: 0.7; }
+    .nav-bg--box .nav-bg--box__picgroup:hover .opa-img2:nth-child(1) {
+      opacity: 0.6; }
+    .nav-bg--box .nav-bg--box__picgroup:hover .opa-img3:nth-child(4) {
+      transform: translateY(-9rem);
+      opacity: 1; }
+    .nav-bg--box .nav-bg--box__picgroup:hover .opa-img3:nth-child(3) {
+      transform: translateY(-6rem);
+      opacity: 0.8; }
+    .nav-bg--box .nav-bg--box__picgroup:hover .opa-img3:nth-child(2) {
+      transform: translateY(-3rem);
+      opacity: 0.7; }
+    .nav-bg--box .nav-bg--box__picgroup:hover .opa-img3:nth-child(1) {
+      opacity: 0.6; }
+    .nav-bg--box__picgroup:nth-child(1) {
+      transform: rotateX(0deg) translate3d(0, 0, 15rem); }
+    .nav-bg--box__picgroup:nth-child(2) {
+      transform: rotateY(90deg) translate3d(0, 0, -15rem); }
+    .nav-bg--box__picgroup:nth-child(3) {
+      transform: rotateX(90deg) translate3d(0, 0, 15rem); }
