@@ -1,0 +1,94 @@
+
+@keyframes chuyendongmauvarung
+{
+    0%{
+        transform: translateY(-1.5rem);
+        box-shadow: 0 0 10px $color-secondary-light ,
+      0 0 40px $color-blue,
+      0 0 60px $color-red,
+      0 0 80px $color-blue,
+      0 0 100px $color-red;
+    }
+    20%{
+        transform: translateY(1.5rem);
+        box-shadow: 0 0 10px $color-secondary-light ,
+      0 0 40px $color-blue,
+      0 0 60px $color-red,
+      0 0 80px $color-blue,
+      0 0 100px $color-red;
+    }
+    40%{
+        transform: translateY(-1.5rem);
+        box-shadow: 0 0 10px $color-red-light ,
+      0 0 40px $color-green,
+      0 0 60px $color-secondary-light,
+      0 0 80px $color-blue,
+      0 0 100px $color-purple;
+    }
+    60%{
+        transform: translateY(1.5rem);
+        box-shadow: 0 0 10px $color-secondary-light ,
+      0 0 40px $color-blue,
+      0 0 60px $color-red,
+      0 0 80px $color-blue,
+      0 0 100px $color-red;
+    }
+    100%{
+        transform: translate(0);
+        box-shadow: 0 0 10px $color-red-light ,
+      0 0 40px $color-green,
+      0 0 60px $color-secondary-light,
+      0 0 80px $color-blue,
+      0 0 100px $color-purple;
+    }
+}
+@keyframes chuyendongrung
+{
+    0%{
+        transform: translateY(-1.5rem);
+
+    }
+    20%{
+        transform: translateY(1.5rem);
+
+    }
+    40%{
+        transform: translateY(-1.5rem);
+      
+    }
+    60%{
+        transform: translateY(1.5rem);
+      
+    }
+    100%{
+        transform: translate(0);
+       
+    }
+}
+@keyframes chuyendongmau
+{
+    0%{
+        box-shadow: 0 0 10px $color-secondary-light ,
+      0 0 40px $color-blue,
+      0 0 60px $color-red,
+      0 0 80px $color-blue,
+      0 0 100px $color-red;
+    }
+    100% {
+    box-shadow: 0 0 10px $color-red-light ,
+      0 0 40px $color-green,
+      0 0 60px $color-secondary-light,
+      0 0 80px $color-blue,
+      0 0 100px $color-purple;
+    }
+}
+@keyframes loop {
+  from    {transform: rotateX(0deg) rotateY(0deg);     }
+  to      {transform: rotateX(360deg) rotateY(360deg); }
+}
+@keyframes zoom {
+  0%    {transform: scale(1);     }
+  33%   {transform: scale(1.5);   }
+  66%  {transform: scale(1);      }
+  100%  {transform: scale(0);      }
+}
